@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ng-elements-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ngElementsWp/NgElementsWpWebPart.js",
+          "manifest": "./src/webparts/ngElementsWp/NgElementsWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NgElementsWpWebPartStrings": "lib/webparts/ngElementsWp/loc/{locale}.js"
+  }
+}
